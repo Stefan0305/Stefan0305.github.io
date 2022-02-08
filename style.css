@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.img1 {
+    background-image: url('images/markus-winkler-dywVM0BclzY-unsplash.jpg');
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url('images/dejan-apostoloski-MHBLu1v2bd0-unsplash.jpg');
+    min-height: 400px;
+}
+
+.img3 {
+    background-image: url('images/petar-avramoski-HvL6nVNKX9w-unsplash.jpg');
+    min-height: 400px;
+}
+
+.img4 {
+    background-image: url('images/boban-simonovski-akQ06aB6MfM-unsplash.jpg');
+    min-height: 100%;
+}
+
+.img1, .img2, .img3, .img4 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+
+.light-section {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.dark-section {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+#main-heading, #end-heading {
+    display: inline;
+    background-color: rgba(17, 17, 17, 0.8);
+    font-size: 30px;
+    padding: 25px;
+    letter-spacing: 8px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.caption h3 {
+    display: inline;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    padding: 15px;
+    letter-spacing: 8px;
+    font-weight: 400;
+    color: #111;
+}
+
+.dark-section, .light-section {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.light-section {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.dark-section {
+    background-color: #282e34;
+    color: #f4f4f4;
+}
+
+.dark-section h3, .light-section h3 {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+
+    .img2 {
+        background-image: url('images/dejan-apostoloski-MHBLu1v2bd0-unsplash.jpg');
+        min-height: 50%;
+    }
+    
+    .img3 {
+        background-image: url('images/petar-avramoski-HvL6nVNKX9w-unsplash.jpg');
+        min-height: 50%;
+    }
+
+    #main-heading, #end-heading {
+        display: inline;
+        background-color: rgba(17, 17, 17, 0.8);
+        font-size: 15px;
+        padding: 12.5px;
+        letter-spacing: 4px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .caption h3 {
+        display: inline;
+        background-color: rgba(255, 255, 255, 0.8);
+        font-size: 12.5px;
+        padding: 7.5px;
+        letter-spacing: 4px;
+        font-weight: 400;
+        color: #111;
+    }
+
+    .dark-section, .light-section {
+        height: 75%;
+        font-size: 13px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        line-height: 1.8em;
+        text-align: center;
+        padding: 25px 40px;
+    }
+
+    .dark-section h3, .light-section h3 {
+        margin-bottom: 30px;
+    }
+  }
